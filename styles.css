@@ -107,7 +107,7 @@ h2 {
     letter-spacing: 5px;
 }
 
-small {
+small, small a {
     font-weight: bold;
     color: var(--input-font-color);
     letter-spacing: 1.5px;

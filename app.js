@@ -44,7 +44,7 @@ function createUserCard(user) {
             <div class="user-info">
                 <div class="user-name">
                     <h2>${userName}</h2>
-                    <small>@${user.login}</small>
+                    <small><a href="${user.html_url}" target="_blank">@${user.login}</a></small>
                 </div>
             </div>
             <p>
